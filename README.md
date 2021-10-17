@@ -31,7 +31,9 @@ Data obtained from Amazon's Vine program (a paid review program where Vine membe
 
 
 ## Summary:
+If strictly taking into account only the results from this analysis of the percentage of 5-star reviews between the paid (Vine program) and not paid reviews, it would look as though there is a bias in the Vine program. The percentage of 5-star reviews from the Vine program-reviewed data was 66.67%, and the percentage for the not-Vine-reviewed data was 55.07%. This difference would indicate a bias exists; however, it's difficult to determine the validity of the bias of the Vine program from this analysis, as there wasn't a large enough sample of reviews from the Vine program (there were only three, compared with 1704 reviews not from the Vine program).
 
+We could run additional analysis, which is strongly recommended, and find out how many Vine program reviews there are in the entire dataset (with no filters applied for number of "helpful" votes). This can be run to compare the total numbers for the Vine program and not-Vine program reviews. This can be done easily by reusing the code that was run for the above analysis, and instituting the names of dataframes containg the entire set of reviews. Running this as a quick test, the Vine program resulted in 75% 5-star reviews, while the non-Vine program resulted in 56.86%, which is close to the first analysis of the filtered reviews. The not-paid group remained stable and the bias increased with the larger dataset.
 
 
 
